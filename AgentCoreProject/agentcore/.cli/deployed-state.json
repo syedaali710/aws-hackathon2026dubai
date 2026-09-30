@@ -1,0 +1,15 @@
+{
+  "targets": {
+    "default": {
+      "resources": {
+        "credentials": {
+          "workshop-gateway-oauth": {
+            "credentialProviderArn": "arn:aws:bedrock-agentcore:us-west-2:233337493171:token-vault/default/oauth2credentialprovider/workshop-gateway-oauth",
+            "clientSecretArn": "arn:aws:secretsmanager:us-west-2:233337493171:secret:bedrock-agentcore-identity!default/oauth2/workshop-gateway-oauth-6b4f40aa-SPEJHT",
+            "callbackUrl": "https://bedrock-agentcore.us-west-2.amazonaws.com/identities/oauth2/callback/e44ac403-aacf-41c4-a0e5-02100637590a"
+          }
+        }
+      }
+    }
+  }
+}
